@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/jpg" href="multimedia/favicon.ico">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+
+    <body>
+        <!-- main conteiner (Contenido principal)-->
+        <div class="main-container">
+
+            <section>
+                <video src="multimedia/Estrellas.mp4" autoplay="true" muted="true" loop="true"></video>
+            </section>
+
+            <section class="caja1">
+                <header>
+                    <figure class="imagen">                            
+                        <img src="multimedia/Vector.png" alt="Logo AluraLatam" height="40px"/>
+                    </figure>
+                    <h1 class="titulo">Encriptador de texto</h1>
+                </header>
+            </section>
+
+            <section class="caja2">
+                <div>
+                    <textarea name="" id="area-texto" spellcheck="false" placeholder="Ingrese texto aquí"></textarea>
+                </div>
+
+                <div>
+                    <label type="texto" class="advertencia"><strong>&#9888; Sólo letras minúsculas y sin acento</strong></label> 
+                </div>
+                    
+                <div>
+                    <button class="botonEncriptar">Encriptar</button>
+                    <button class="botonDesencriptar">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="caja3">
+                <div>
+                    <textarea name="" id="area-texto2" readonly="readonly">Ningún texto encontrado</textarea>
+                </div>
+                    
+                <div>
+                    <button class="botonCopiar">Copiar</button>
+                </div>
+            </section>
+
+            <footer class="caja4">
+                <img src="multimedia/logo.png" width="84px">
+                <p><strong>Andrea Mejia - 2022</strong> </p>
+                <p><strong>&copy Copyright</strong></p>
+            </footer>
+        </div>
+
+        <script src="encriptar.js"></script>
+
+    </body>
+</html>
