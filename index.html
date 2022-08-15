@@ -3,59 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Encriptador de Texto</title>
+        <title>Cifrador de Texto</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
         <link rel="icon" type="image/jpg" href="multimedia/favicon.ico">
         <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/responsive.css"/>
     </head>
 
     <body>
         <!-- main conteiner (Contenido principal)-->
-        <div class="main-container">
+        <div class="container">
 
             <section>
                 <video src="multimedia/Estrellas.mp4" autoplay="true" muted="true" loop="true"></video>
             </section>
 
-            <section class="caja1">
-                <header>
-                    <figure class="imagen">                            
-                        <img src="multimedia/Vector.png" alt="Logo AluraLatam" height="40px"/>
-                    </figure>
-                    <h1 class="titulo">Encriptador de texto</h1>
-                </header>
-            </section>
+            <header class="cabecera">
+                <figure class="vector">                            
+                    <img class="vector-img" src="multimedia/Vector.png" alt="Logo AluraLatam" height="40px"/>
+                </figure>
+                <h1 class="titulo">Cifrador de texto</h1>
+            </header>
 
-            <section class="caja2">
-                <div>
-                    <textarea name="" id="area-texto" spellcheck="false" placeholder="Ingrese texto aquí"></textarea>
-                </div>
-
-                <div>
+            <section class="cifrador">
+                <div class="area">
+                    
+                    <textarea name="" class="area-box1" spellcheck="false" placeholder="Ingrese texto aquí"></textarea>
                     <label type="texto" class="advertencia"><strong>&#9888; Sólo letras minúsculas y sin acento</strong></label> 
+                    <button class="boton1">Encriptar</button>
+                    <button class="boton2">Desencriptar</button>
+                   
                 </div>
-                    
-                <div>
-                    <button class="botonEncriptar">Encriptar</button>
-                    <button class="botonDesencriptar">Desencriptar</button>
-                </div>
-            </section>
-
-            <section class="caja3">
-                <div>
-                    <textarea name="" id="area-texto2" readonly="readonly">Ningún texto encontrado</textarea>
-                </div>
-                    
-                <div>
-                    <button class="botonCopiar">Copiar</button>
+    
+                <div class="respuesta">
+                    <textarea name="" class="area-box2" readonly="readonly">Ningún texto encontrado</textarea>
+                    <button class="botonCopiar">Copiar</button>                    
                 </div>
             </section>
 
-            <footer class="caja4">
-                <img src="multimedia/logo.png" width="84px">
-                <p><strong>Andrea Mejia - 2022</strong> </p>
-                <p><strong>&copy Copyright</strong></p>
+            <footer class="rodapie">
+                <img class="rodapie-img" src="multimedia/logo.png" alt="Logo Andrea Mejia">
+                <p class="rodapie-texto">Desarrollado por Andrea Mejia - 2022</p>
+                <p class="rodapie-texto">&copy Copyright - Todos los derechos reservados</p>
             </footer>
         </div>
 
