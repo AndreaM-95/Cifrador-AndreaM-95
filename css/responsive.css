@@ -3,57 +3,46 @@
         display: block;
     }
     .cabecera{
-        width: 100vw;
-        display: inline-block;
+        text-align: center;
     }
-    
     .vector{
-
         display: inline-block;
     }
-    
     .vector-img{
-        display: inline-block;
-        width: 30%;
         height: 30%;
+        padding: 2rem 1rem 0 2rem;
+        width: 30%;
     }
-    
     .titulo{
-        display: inline-block;
-        width: 60%;
         font-size: 1.8rem;
+        margin-bottom: .5rem;
+        padding: 2rem 1rem 0 0;
+        width: 60%;
     }
-
     .cifrador{
+        align-items: center;
         flex-direction: column;
+        padding: 0;
         width: 100%;
-        align-items: center;
     }
-
     .area, .respuesta{
+        padding: 0;
+        text-align: center;
         width:100%;
-        align-items: center;
     }
-
     .area-box1, .area-box2{
-        width: 80%;
         height: 12rem;
         margin: 0;
+        width: 80%;
     }
-
     .advertencia{
-        width: 80%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin:.5rem 1rem .5rem 1rem;
+        width: 89%;
     }
-
     .botonCopiar, .boton1, .boton2{
-        flex-direction: column;
-        width: 80%;
-        text-align: center;
         margin: .3rem;
+        width: 80%;
     }
-
     .rodapie{
         width: 100%;
     }
